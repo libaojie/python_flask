@@ -1,0 +1,14 @@
+
+body {
+    background-color: #FBF9FE
+}
+
+body,
+html {
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}

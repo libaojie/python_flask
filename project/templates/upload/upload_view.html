@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block script %}
+    <script type=text/javascript src="{{ url_for('static', filename='scripts/upload.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+    <form id='uploadForm' enctype='multipart/form-data'>
+        文件:<input id="file" type="file" name="file"/>
+    </form>
+    <input type="button" id="upload" value="上传"/>
+{% endblock %}

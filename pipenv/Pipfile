@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cx-freeze = "==5.1.1"
+cx-oracle = "==6.3.1"
+gunicorn = "==19.9.0"
+gevent = "==1.4.0"
+xlrd = "==1.1.0"
+flask = "==0.10"
+flask-cors = "==2.1.2"
+flask-restful = "==0.3.6"
+flask-sqlalchemy = "==2.3"
+requests = "==1.2.0"
+Jinja2 = "==2.8"
+pymysql = "==0.8.0"
+sqlalchemy = "==1.2.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
